@@ -21,7 +21,7 @@ export default defineComponent({
 <script setup lang="ts">
 
     const cards = ref([])
-    const localhost = "http://localhost:1337"
+    const localhost = "http://3.87.62.180/"
     onMounted(() => {
         fetch(`/api/projects?populate=image`, {
         headers: {
