@@ -3,6 +3,7 @@
         <div class="card w-2/5 h-2/6 md:h-1/2 md:w-1/5 bg-slate-900 flex items-end border-8 mx-1 md:mx-2 border-white text-white hover:scale-105 hover:rotate-m12" v-for=" card in cards" :key="card.id" :style="{'background-image': `url(${localhost}${card.attributes.image.data.attributes.url})`}" >
             <ProjectCard :title="card.attributes.titre" :url="card.attributes.url" />
         </div>
+        {{localhost}}
     </div>
 </template>
 
