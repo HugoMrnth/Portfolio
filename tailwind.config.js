@@ -20,6 +20,9 @@ module.exports = {
       },
       rotate: {
         'm12': '-12deg',
+      },
+      width: {
+        '30': '30%'
       }
     },
     

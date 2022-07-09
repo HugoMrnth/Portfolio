@@ -5,7 +5,7 @@
       <a href="https://www.linkedin.com/in/hugo-marneth/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
     </div>
     <div class="pr-2 w-5/12 md:w-4/12 md:mt-14">
-      <h1 class="text-white flex flex-col text-5xl pb-3">Mr <span class="text-primary">Panda</span></h1>
+      <h1 class="text-white flex flex-col text-5xl pb-3">Hugo <span class="text-primary">Marneth</span></h1>
       <hr class="w-8/12 m-auto md:w-3/12">
     </div>
     <div class="flex md:h-3/4 justify-between md:w-10/12">
@@ -47,7 +47,7 @@ export default defineComponent({
     font-family: 'Poiret One', sans-serif;
   }
   .image {
-    background-image: url('../../public/images/pexels-alotrobo-7506265.jpg');
+    background-image: url('../../public/images/pexels-luis-gomes-546819.jpg');
     background-size: cover;
     min-height: 300px;
     /* margin: auto; */
